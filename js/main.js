@@ -204,8 +204,20 @@ return 'todos los elementos del array son mayores a ' + valor;
 console.log(verificarMayor(numArr, 2));
 console.log(verificarMayor(numArr, 10));
 
+/* con find() 
+let numDado = 5;
 
+let encontrado2 = numArr.find(function (num) {
+  return num > numDado ;
+});
 
+if (encontrado2) {
+  console.log('lo siento no cumple');
+} else {
+  console.log('si cumple');
+}
+
+*/
 
 /*
 15. Obtener el primer elemento que cumple una condición
